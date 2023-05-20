@@ -25,7 +25,7 @@
                 android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Step 3"
+                android:text="Step 4"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -37,7 +37,7 @@
                 android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Assembling the Middle Layer (Belt)"
+                android:text="Intercepting the Cube and Assembling the Cross."
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -47,23 +47,23 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="In the previous step you should have gotten the result as shown in the picture below."
+                android:text="After successfully assembling the top two layers of the 3x3 cube in the previous step, the next task is to turn the puzzle upside down, as shown in the picture below."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
 
             <ImageView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/img17" />
+                app:srcCompat="@drawable/img23" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="The picture shows a 3x3 cube with the top layer precisely assembled, indicating that you are on the right track."
+                android:text="The image shows the process of flipping the 3x3 Rubik's Cube at the beginning of Step 4 of the assembly."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -72,31 +72,23 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="Let's dive into the process of assembling the second layer of the 3x3 Rubik's Cube."
+                android:text="Once you have completed a 180-degree rotation of the 3x3 cube and positioned the yellow center at the top, you can proceed to form the yellow top cross."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:text="In the illustration below, we have depicted the desired result of your 3x3 cube after successfully assembling the second layer."
-                android:textColor="@color/text"
-                android:textSize="18sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/img18" />
+                app:srcCompat="@drawable/img24" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="By following the instructions below, you will make steady progress toward completing the 3x3 Rubik's Cube and achieving a satisfying sense of accomplishment."
+                android:text="The accompanying illustration shows the 3x3 Rubik's Cube after inversion, with the assembled faces facing down."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -105,7 +97,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="Formula #1 How to assemble the second layer of a 3x3 cube"
+                android:text="With this repositioning of the cube, you are now ready to begin the next stage of the assembly process and work toward the yellow top cross."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="How to assemble the yellow cross of the Rubik's cube 3x3"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -115,7 +116,27 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="In the image below, you'll find an example that illustrates the use of this formula. Here we have brought the orange-blue bottom edge into alignment with the orange center of the cube. Note that in this example, the left side of the cube is represented by the color blue."
+                android:text="To assemble the yellow cross on the final layer of the 3x3 Rubik's Cube, your goal is to place all the border pieces that make up the cross in their respective places.
+"
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="The color of the top and bottom ribs is not important in this step. What is important is that each of the four parts of the cross is correctly positioned."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="
+In the illustration below, you can see that the green-yellow edge is in its intended position, although it will need to be turned over in the next step."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -123,14 +144,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/img19" />
+                app:srcCompat="@drawable/img25" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="When Formula #1 is executed, the edge piece will move to the left-middle layer of the cube. The accompanying illustration provides a visual representation of the action performed by this formula on an element of the 3x3 cube."
+                android:text="The illustration shows the initial stage of assembling the yellow cross on the top layer of the 3x3 cube."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -139,7 +160,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="We have also prepared a GIF animation and diagrammatic arrows that show the sequence of movements involved in the second step. This scheme includes eight specific movements, and it is worth noting that you do not need to physically rotate or manipulate the cube during this process."
+                android:text="Having explained the task for this step in our comprehensive tutorial, we can now move on to the illustration that shows the process of forming the yellow cross on the top layer."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -148,7 +169,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="To begin, hold the puzzle with the orange side (or the corresponding color on your cube) facing you, and then follow the algorithm outlined in the illustration."
+                android:text="Scheme for placing the correct yellow cross on the last layer of the 3x3 Rubik's Cube"
+                android:textColor="@color/zagolovok"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="This scheme involves swapping two edges of the cube's cross. The green-yellow edge on the left is moved to the front of the 3x3 cube, while the yellow-red edge is moved to the left."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -157,7 +188,52 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="By following this systematic approach, you will successfully assemble the second layer of the 3x3 Rubik's Cube, bringing you closer to completing the puzzle."
+                android:text="In the image below, we have provided arrows indicating the specific pieces of the 3x3 puzzle and their respective destinations. In addition, we have indicated the side (green in this example) that you should be facing when performing the steps."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img26" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="The image above illustrates the movement of the pieces of the 3x3 Cube according to the formula in step #4."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="The formula for assembling the base of the yellow cross on the top layer consists of seven precise moves. It does not require any intercepts or repetitions.
+"
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="To execute the formula, select two rib elements from the top layer of the cube that need to swap places. Position them according to the arrangement shown in the image and proceed to execute the algorithm."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="The animation provides a visual representation of the formula for assembling the base of the cross on the last layer of the 3x3 Rubik's Cube.
+"
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -167,89 +243,16 @@
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:background="#FFFFFF"
-                android:src="@drawable/img20" />
+                android:src="@drawable/img27" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="Formula #2 How to assemble the second row of the Rubik's cube 3x3 "
-                android:textColor="@color/zagolovok"
-                android:textSize="25sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:text="Now let's explore Scheme #2, which differs from the previous one in that the edge of the Rubik's Cube is moved to the right instead of the left."
-                 android:textColor="@color/text"
-android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:text="In the example illustration, you can see that the orange-green edge, which was originally positioned in the center of the bottom layer, is moved to the right-middle layer of the cube. The accompanying illustration provides a visual representation of the action performed by Formula #2."
-                 android:textColor="@color/text"
-android:textSize="18sp"
-                android:textStyle="bold" />
-
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/img21" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:text="If you closely examine and compare the two graphs in this step, you will notice that they are mirror images of each other. This observation can help you recall and memorize these formulas more easily."
+                android:text="Make sure that all four elements of the yellow cross are correctly positioned on the final layer of the cube, and then proceed to step 5."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:text="Once again, hold the cube so that the bottom center edge piece and the intended target are facing you. Execute the algorithm shown in the figure below, and just like that, the edge piece should fall into place."
-                android:textColor="@color/text"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:text="To further your understanding, the motion animation presents diagram #2 of the third step, which illustrates the process of assembling the middle layer of a 3x3 cube."
-                android:textColor="@color/text"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:text="By following these instructions and familiarizing yourself with the different schemes, you will gain confidence in assembling the middle layer of the 3x3 Rubik's Cube with precision."
-                android:textColor="@color/text"
-                android:textSize="18sp" />
-
-
-            <pl.droidsonroids.gif.GifImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:layout_weight="1"
-                android:background="#FFFFFF"
-                android:src="@drawable/img22" />
 
 
             <ImageView
@@ -262,4 +265,3 @@ android:textSize="18sp"
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
-

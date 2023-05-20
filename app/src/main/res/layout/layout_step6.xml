@@ -25,7 +25,7 @@
                 android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Step 3"
+                android:text="Step 6"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -37,7 +37,7 @@
                 android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Assembling the Middle Layer (Belt)"
+                android:text="Placing Three Corners in Their Respective Positions."
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -47,41 +47,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="In the previous step you should have gotten the result as shown in the picture below."
-                android:textColor="@color/text"
-                android:textSize="18sp" />
-
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/img17" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:text="The picture shows a 3x3 cube with the top layer precisely assembled, indicating that you are on the right track."
-                android:textColor="@color/text"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:text="Let's dive into the process of assembling the second layer of the 3x3 Rubik's Cube."
-                android:textColor="@color/text"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:text="In the illustration below, we have depicted the desired result of your 3x3 cube after successfully assembling the second layer."
+                android:text="Congratulations on reaching the sixth step of the assembly process! At this point, your Rubik's cube should have the two bottom layers properly assembled, as well as a correctly formed yellow cross on the last layer (hat). The illustration provided below visually represents the desired state of your 3x3 cube."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -89,14 +55,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/img18" />
+                app:srcCompat="@drawable/img34" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="By following the instructions below, you will make steady progress toward completing the 3x3 Rubik's Cube and achieving a satisfying sense of accomplishment."
+                android:text="In the image above, you can observe a Rubik's cube 3x3 that showcases both an assembled cross on the last layer and the bottom two layers effectively completed. You are making excellent progress towards completing the entire cube. Let's proceed to the next step of our step-by-step instructions."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="Congratulations on reaching the seventh step of the assembly process! At this stage, the focus is on correctly placing all the corner cubes of the last layer of the 3x3 Rubik's Cube. It is important to note that the orientation of the corners does not matter in this step, as we will deal with their rotation in the final step of the assembly process.
+"
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -105,7 +82,33 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="Formula #1 How to assemble the second layer of a 3x3 cube"
+                android:text="In the accompanying illustration, we have drawn a 3x3 Rubik's cube that represents the desired result of this step. Your cube should resemble the illustration, with the bottom two layers assembled, a yellow cross on the last layer, and the corner pieces correctly positioned."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img35" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="Now let's move on to two beginner-friendly algorithms that will help you rearrange the three corners of the last layer. These algorithms are designed to be simple and easy to follow, making the process of rearranging the corners more accessible."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="Diagrams for arranging the corners of the last Rubik's cube layer 3x3"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -115,7 +118,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="In the image below, you'll find an example that illustrates the use of this formula. Here we have brought the orange-blue bottom edge into alignment with the orange center of the cube. Note that in this example, the left side of the cube is represented by the color blue."
+                android:text="Welcome to the eighth step of assembling the 3x3 Rubik's Cube! At this stage, you will encounter a common challenge where three or four corners of the top layer are not properly positioned."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="To help you visualize this, we have provided an illustration below. It shows a 3x3 cube with misaligned corners on the last layer of the assembly. Specifically, on the right side of the cube at the top, you can see two corners: green-red-yellow (near) and green-yellow-orange (far). Your goal is to move these corners to the green side, which is the front of the cube."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -123,14 +135,50 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/img19" />
+                app:srcCompat="@drawable/img36" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="When Formula #1 is executed, the edge piece will move to the left-middle layer of the cube. The accompanying illustration provides a visual representation of the action performed by this formula on an element of the 3x3 cube."
+                android:text="This step is called 'putting the corners in their place'. It involves rearranging the misaligned corners to their correct positions, aligning them with their respective sides. Let's continue with the algorithm to accomplish this task."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="Scheme #1 How to assemble the Rubik's Cube 3x3 corners"
+                android:textColor="@color/zagolovok"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="Let's continue with the eighth step of assembling the 3x3 Rubik's Cube, using Scheme #1 for the corners. This scheme follows a simple principle: the three corner cubes of the top layer are moved clockwise, as shown in the illustration."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img37" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="Look closely at the image to understand the movement of the corners. The animation shows how the corners of the 3x3 cube are rearranged according to this formula."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -139,25 +187,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="We have also prepared a GIF animation and diagrammatic arrows that show the sequence of movements involved in the second step. This scheme includes eight specific movements, and it is worth noting that you do not need to physically rotate or manipulate the cube during this process."
-                android:textColor="@color/text"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:text="To begin, hold the puzzle with the orange side (or the corresponding color on your cube) facing you, and then follow the algorithm outlined in the illustration."
-                android:textColor="@color/text"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:text="By following this systematic approach, you will successfully assemble the second layer of the 3x3 Rubik's Cube, bringing you closer to completing the puzzle."
+                android:text="Here's an important tip: If one of the corners of the last layer is already in its correct position, hold the cube so that this corner is in the far left corner. Then use the following formula."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -167,51 +197,59 @@
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:background="#FFFFFF"
-                android:src="@drawable/img20" />
+                android:src="@drawable/img38" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="Formula #2 How to assemble the second row of the Rubik's cube 3x3 "
+                android:text="After applying this formula, carefully check the results. The corner you placed in the top-left corner should remain in that position, while the other three corners should have moved clockwise, as shown above."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="Scheme #2 Rearrange the corners of the last layer"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
-                android:layout_weight="1"
-                android:text="Now let's explore Scheme #2, which differs from the previous one in that the edge of the Rubik's Cube is moved to the right instead of the left."
-                 android:textColor="@color/text"
-android:textSize="18sp"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="In the example illustration, you can see that the orange-green edge, which was originally positioned in the center of the bottom layer, is moved to the right-middle layer of the cube. The accompanying illustration provides a visual representation of the action performed by Formula #2."
-                 android:textColor="@color/text"
-android:textSize="18sp"
-                android:textStyle="bold" />
+                android:text="Now let's explore the second scheme for arranging the corner elements of the top layer. This scheme is essentially a mirror image of the first. It contains a total of eight moves. If you pay close attention, you'll notice the repetitive nature of the side movements. It's just a matter of memorizing these movements."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="For those who find it daunting to learn this additional formula, we have a secret to share with you. You can actually get the result you want with just one pattern. The trick is to repeat it not once, but twice."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/img21" />
+                app:srcCompat="@drawable/img39" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="If you closely examine and compare the two graphs in this step, you will notice that they are mirror images of each other. This observation can help you recall and memorize these formulas more easily."
+                android:text="In the picture, you can see the three corner pieces of a 3x3 cube moving counterclockwise. This illustrates the actions to be taken according to the second scheme."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -220,7 +258,17 @@ android:textSize="18sp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="Once again, hold the cube so that the bottom center edge piece and the intended target are facing you. Execute the algorithm shown in the figure below, and just like that, the edge piece should fall into place."
+                android:text="Using this scheme, or repeating the first one twice, you can successfully arrange the corner pieces of the top layer of your Rubik's Cube."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="Before proceeding with the first scheme, it is important to check if there is already a corner element in the correct position. If so, position the cube so that this corner is in the upper-left position and then run the algorithm."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -229,7 +277,7 @@ android:textSize="18sp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="To further your understanding, the motion animation presents diagram #2 of the third step, which illustrates the process of assembling the middle layer of a 3x3 cube."
+                android:text="If none of the corners are in their proper places, follow one of the algorithms provided in this step. Then examine the cube to find a corner that is correctly positioned. Adjust the orientation of the cube accordingly and repeat the formula again."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -238,10 +286,9 @@ android:textSize="18sp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="By following these instructions and familiarizing yourself with the different schemes, you will gain confidence in assembling the middle layer of the 3x3 Rubik's Cube with precision."
+                android:text="In the image showing the movement of a 3x3 Rubik's cube, you can see a scheme for moving the corners of the last layer counterclockwise."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
-
 
             <pl.droidsonroids.gif.GifImageView
                 android:layout_width="match_parent"
@@ -249,7 +296,16 @@ android:textSize="18sp"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
                 android:background="#FFFFFF"
-                android:src="@drawable/img22" />
+                android:src="@drawable/img40" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="If you have successfully performed the necessary moves without disrupting the puzzle, and all four corner pieces of the yellow layer are now in their designated positions, you are ready to proceed to the final stage of assembling the 3x3 Rubik's Cube."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
 
 
             <ImageView
@@ -262,4 +318,3 @@ android:textSize="18sp"
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
-
