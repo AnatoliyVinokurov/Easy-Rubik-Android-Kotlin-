@@ -2,6 +2,7 @@ package com.anatoliyvinokurov.easyrubik
 
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.Fragment
@@ -14,6 +15,7 @@ import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 
 const val GAME_LENGTH_MILLISECONDS = 3000L
+
 //ca-app-pub-3940256099942544/1033173712
 const val AD_UNIT_ID = "ca-app-pub-3940256099942544/1033173712"
 
@@ -22,6 +24,8 @@ class MainActivity : AppCompatActivity() {
     private var interstitialAd: InterstitialAd? = null
     private var adIsLoading: Boolean = false
     private var TAG = "MainActivity"
+    private var backPressedTime:Long = 0
+    private lateinit var backToast:Toast
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -62,10 +66,12 @@ class MainActivity : AppCompatActivity() {
         adapter.addFragment(Step5Fragment(), "5")
         adapter.addFragment(Step6Fragment(), "6")
         adapter.addFragment(Step7Fragment(), "7")
+        adapter.addFragment(Step8Fragment(), "+")
         viewPager.adapter = adapter
     }
 
-    class ViewPagerAdapter(fragmentManager: FragmentManager) : FragmentPagerAdapter(fragmentManager) {
+    class ViewPagerAdapter(fragmentManager: FragmentManager) :
+        FragmentPagerAdapter(fragmentManager) {
         private val fragmentList = ArrayList<Fragment>()
         private val fragmentTitleList = ArrayList<String>()
 
@@ -97,46 +103,62 @@ class MainActivity : AppCompatActivity() {
                 override fun onAdFailedToLoad(adError: LoadAdError) {
                     interstitialAd = null
                     adIsLoading = false
-                    val error = "domain: ${adError.domain}, code: ${adError.code}, " + "message: ${adError.message}"
-                /* Toast.makeText(this@MainActivity,"onAdFailedToLoad() with error $error",Toast.LENGTH_SHORT).show() */
-            }
+                    val error =
+                        "domain: ${adError.domain}, code: ${adError.code}, " + "message: ${adError.message}"
+                    /* Toast.makeText(this@MainActivity,"onAdFailedToLoad() with error $error",Toast.LENGTH_SHORT).show() */
+                }
 
-            override fun onAdLoaded(ad: InterstitialAd) {
-                interstitialAd = ad
-                adIsLoading = false
-                /* Toast.makeText(this@MainActivity, "onAdLoaded()", Toast.LENGTH_SHORT).show() */
+                override fun onAdLoaded(ad: InterstitialAd) {
+                    interstitialAd = ad
+                    adIsLoading = false
+                    /* Toast.makeText(this@MainActivity, "onAdLoaded()", Toast.LENGTH_SHORT).show() */
+                }
             }
-        }
-    )
-}
-
-fun showInterstitial() {
-    if (interstitialAd != null) {
-        interstitialAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
-            override fun onAdDismissedFullScreenContent() {
-                interstitialAd = null
-                loadAd()
-            }
-
-            override fun onAdFailedToShowFullScreenContent(adError: AdError) {
-                interstitialAd = null
-            }
-
-            override fun onAdShowedFullScreenContent() {
-                // Called when ad is dismissed.
-            }
-        }
-        interstitialAd?.show(this)
-    } else {
-        /* Toast.makeText(this, "Ad wasn't loaded.", Toast.LENGTH_SHORT).show() */
-        startGame()
+        )
     }
-}
 
-fun startGame() {
-    if (!adIsLoading && interstitialAd == null) {
-        adIsLoading = true
-        loadAd()
+    fun showInterstitial() {
+        if (interstitialAd != null) {
+            interstitialAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
+                override fun onAdDismissedFullScreenContent() {
+                    interstitialAd = null
+                    loadAd()
+                }
+
+                override fun onAdFailedToShowFullScreenContent(adError: AdError) {
+                    interstitialAd = null
+                }
+
+                override fun onAdShowedFullScreenContent() {
+                    // Called when ad is dismissed.
+                }
+            }
+            interstitialAd?.show(this)
+        } else {
+            /* Toast.makeText(this, "Ad wasn't loaded.", Toast.LENGTH_SHORT).show() */
+            startGame()
+        }
     }
-}
+
+    fun startGame() {
+        if (!adIsLoading && interstitialAd == null) {
+            adIsLoading = true
+            loadAd()
+        }
+    }
+
+    // code for system back button
+    override fun onBackPressed() {
+        //if the current time is + 2 seconds longer than the current time
+        if (backPressedTime + 2000 > System.currentTimeMillis()) {
+            backToast.cancel() //command to close the pop-up message
+            super.onBackPressed() //the team that closes the game
+            return
+        } else {
+            backToast = Toast.makeText(getBaseContext(), "Click again to exit", Toast.LENGTH_SHORT)
+            backToast.show()
+        }
+        backPressedTime = System.currentTimeMillis()
+    }
+
 }

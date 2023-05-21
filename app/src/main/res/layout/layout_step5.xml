@@ -64,7 +64,7 @@ As you begin this stage of assembly, your 3x3 Rubik's Cube should look very simi
                 android:textSize="18sp" />
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img28" />
@@ -111,7 +111,7 @@ As you begin this stage of assembly, your 3x3 Rubik's Cube should look very simi
 
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img29" />
@@ -183,7 +183,7 @@ As you begin this stage of assembly, your 3x3 Rubik's Cube should look very simi
                 android:textSize="18sp" />
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img30" />

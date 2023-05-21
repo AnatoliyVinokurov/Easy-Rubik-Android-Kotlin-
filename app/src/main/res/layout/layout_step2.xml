@@ -134,7 +134,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="Scheme #1 How to assemble the top row of the Rubik's Cube 3x3"
+                android:text="Formula #1 How to assemble the top row of the Rubik's Cube 3x3"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -188,7 +188,7 @@ The animation clearly demonstrates the systematic approach to arranging the corn
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="Scheme #2 How to assemble the upper part of the Rubik's Cube 3x3"
+                android:text="Formula #2 How to assemble the upper part of the Rubik's Cube 3x3"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -203,7 +203,7 @@ The animation clearly demonstrates the systematic approach to arranging the corn
                 android:textSize="18sp" />
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img13" />
@@ -248,7 +248,7 @@ The animation clearly demonstrates the systematic approach to arranging the corn
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="Scheme #3 How to assemble 1 side of the Rubik's Cube 3x3"
+                android:text="Formula #3 How to assemble 1 side of the Rubik's Cube 3x3"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -263,7 +263,7 @@ The animation clearly demonstrates the systematic approach to arranging the corn
                 android:textSize="18sp" />
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img15" />
@@ -305,7 +305,7 @@ The animation clearly demonstrates the systematic approach to arranging the corn
 
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/otstup" />
