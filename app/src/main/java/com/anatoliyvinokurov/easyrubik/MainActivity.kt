@@ -66,7 +66,6 @@ class MainActivity : AppCompatActivity() {
         adapter.addFragment(Step5Fragment(), "5")
         adapter.addFragment(Step6Fragment(), "6")
         adapter.addFragment(Step7Fragment(), "7")
-        adapter.addFragment(Step8Fragment(), "+")
         viewPager.adapter = adapter
     }
 

@@ -434,9 +434,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="We would appreciate your feedback and comments in the App Store about your experience in following our instructions for assembling the 3x3 Rubik's Cube, especially if you were able to complete it successfully as a beginner in cube solving."
+                android:text="We would appreciate your feedback and comments in the Google Play"
                 android:textColor="@color/text"
                 android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/addCommit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Add commit in Google Play" />
 
             <TextView
                 android:layout_width="match_parent"

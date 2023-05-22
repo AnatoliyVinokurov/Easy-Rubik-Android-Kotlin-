@@ -2,4 +2,37 @@
     <string name="app_name">Rubik\'s Easy Assistant</string>
     <string name="impossible_game">Impossible Game</string>
     <string name="retry_button_text">Retry</string>
+
+<string name="start1_before_of_start">Before of start</string>
+<string name="start1_how_to_build_cube">How to build a Rubik\'s Cube 3x3</string>
+<string name="start1_instructions">Welcome to my mobile app that offers step-by-step instructions for assembling the Rubik\'s Cube 3x3 using the easiest method known as the 'beginner's method' among speedcubers. Let's dive into the process:</string>
+<string name="start1_building_right_cross">Building the Right Cross on the Top Layer.</string>
+<string name="start1_assembling_corners">Assembling All Four Corners of the Top Layer.</string>
+<string name="start1_assembling_middle_layer">Assembling the Middle Layer (Belt).</string>
+<string name="start1_intercepting_cube">Intercepting the Cube and Assembling the Cross.</string>
+<string name="start1_orienting_edges">Orienting the Puzzle Edges.</string>
+<string name="start1_placing_corners">Placing Three Corners in Their Respective Positions.</string>
+<string name="start1_rotating_corners">Rotating the Triangle Corners Clockwise or Counterclockwise.</string>
+<string name="start1_guide_side_names">A Brief Guide to the Side Names on the 3x3 Cube:</string>
+<string name="start1_guide_side_names1">For the 6-letter terms used, there will of course be movements that have the following meanings:</string>
+<string name="start1_cube_sides">The illustration below showcases all sides of the Rubik\'s puzzle with schematic representations and corresponding names.</string>
+<string name="start1_u_movement">U : Up or twist the top to the left</string>
+<string name="start1_d_movement">D : Down or twist the lower part to the right</string>
+<string name="start1_r_movement">R : Right or twist the right part up</string>
+<string name="start1_l_movement">L : Left or twist the left side down</string>
+<string name="start1_f_movement">F : Front or rotate the front in a clockwise direction</string>
+<string name="start1_b_movement">B : Back or turn the back clockwise</string>
+<string name="start1_naming_elements">Naming the Elements on the 3x3 Cube:</string>
+<string name="start1_cube_elements">In this step-by-step assembly instructions, we refer to specific elements. Here\'s a depiction of the Rubik's 3x3 puzzle with labeled positions and elements.</string>
+<string name="start1_center_element1">The list of all elements of the Rubik\'s 3x3 puzzle:</string>
+<string name="start1_center_element">Center: The central piece.</string>
+<string name="start1_edge_element">Edge: The side pieces connecting the center and corner elements.</string>
+<string name="start1_corner_element">Corner: The corner pieces, also known as corner elements.</string>
+<string name="start1_top_layer">Top Layer: The first layer or the top portion of the cube.</string>
+<string name="start1_middle_layer">Middle Layer: The layer between the top and bottom layers.</string>
+<string name="start1_bottom_layer">Bottom Layer: The lowest layer or bottom row.</string>
+<string name="start1_assembly_diagrams">With the understanding of the terms and arrangement of elements on the Rubik\'s Cube 3x3, we can now proceed to the assembly diagrams.</string>
+<string name="start1_easy_task">This mobile app makes assembling the Rubik\'s Cube 3x3 an easy task.</string>
+
+
 </resources>

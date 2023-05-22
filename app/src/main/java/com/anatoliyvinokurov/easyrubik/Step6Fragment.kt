@@ -21,20 +21,9 @@ class Step6Fragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
-        showAdRekl()
         return inflater.inflate(
             R.layout.layout_step6, container, false
         )
     }
-    /**
-     * Method to show the advertisement.
-     * Gets a reference to the MainActivity instance and calls the showInterstitial() function.
-     */
-    fun showAdRekl() {
-        // Get a reference to the MainActivity instance
-        val mainActivity = activity as MainActivity
 
-        // Call the showInterstitial() function of MainActivity
-        mainActivity.showInterstitial()
-    }
 }

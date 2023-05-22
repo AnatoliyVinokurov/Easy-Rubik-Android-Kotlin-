@@ -25,7 +25,7 @@
                 android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Before of start"
+                android:text="@string/start1_before_of_start"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -36,7 +36,7 @@
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="How to build a Rubik's Cube 3x3"
+                android:text="@string/start1_how_to_build_cube"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="Welcome to my mobile app that offers step-by-step instructions for assembling the Rubik's Cube 3x3 using the easiest method known as the 'beginner's method' among speedcubers. Let's dive into the process:"
+                android:text="@string/start1_instructions"
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -54,7 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Building the Right Cross on the Top Layer."
+                android:text="@string/start1_building_right_cross"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -62,7 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Assembling All Four Corners of the Top Layer."
+                android:text="@string/start1_assembling_corners"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -70,7 +70,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Assembling the Middle Layer (Belt)."
+                android:text="@string/start1_assembling_middle_layer"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Intercepting the Cube and Assembling the Cross."
+                android:text="@string/start1_intercepting_cube"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -86,7 +86,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Orienting the Puzzle Edges."
+                android:text="@string/start1_orienting_edges"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -94,7 +94,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Placing Three Corners in Their Respective Positions."
+                android:text="@string/start1_placing_corners"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -102,7 +102,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Rotating the Triangle Corners Clockwise or Counterclockwise"
+                android:text="@string/start1_rotating_corners"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -111,7 +111,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="A Brief Guide to the Side Names on the 3x3 Cube:"
+                android:text="@string/start1_guide_side_names"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -121,7 +121,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="The illustration below showcases all sides of the Rubik's puzzle with schematic representations and corresponding names."
+                android:text="@string/start1_cube_sides"
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -137,7 +137,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="For the 6-letter terms used, there will of course be movements that have the following meanings:"
+                android:text="@string/start1_guide_side_names1"
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -147,7 +147,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="U : Up or twist the top to the left"
+                android:text="@string/start1_u_movement"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -156,7 +156,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="D : Down or twist the lower part to the right"
+                android:text="@string/start1_d_movement"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -165,7 +165,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="R : Right or twist the right part up"
+                android:text="@string/start1_r_movement"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -174,7 +174,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="L : Left or twist the left side down"
+                android:text="@string/start1_l_movement"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -183,7 +183,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="F : Front or rotate the front in a clockwise direction"
+                android:text="@string/start1_f_movement"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -193,7 +193,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="B : Back or turn the back clockwise"
+                android:text="@string/start1_b_movement"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -202,7 +202,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="Naming the Elements on the 3x3 Cube:"
+                android:text="@string/start1_naming_elements"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -213,7 +213,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="In this step-by-step assembly instructions, we refer to specific elements. Here's a depiction of the Rubik's 3x3 puzzle with labeled positions and elements."
+                android:text="@string/start1_cube_elements"
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -228,7 +228,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="The list of all elements of the Rubik's 3x3 puzzle:"
+                android:text="@string/start1_center_element1"
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -236,7 +236,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Center: The central piece."
+                android:text="@string/start1_center_element"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -244,7 +244,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Edge: The side pieces connecting the center and corner elements."
+                android:text="@string/start1_edge_element"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -252,7 +252,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Corner: The corner pieces, also known as corner elements."
+                android:text="@string/start1_corner_element"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -260,7 +260,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Top Layer: The first layer or the top portion of the cube."
+                android:text="@string/start1_top_layer"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -268,7 +268,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Middle Layer: The layer between the top and bottom layers."
+                android:text="@string/start1_middle_layer"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -276,7 +276,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Bottom Layer: The lowest layer or bottom row."
+                android:text="@string/start1_bottom_layer"
                 android:textColor="@color/textTable"
                 android:textSize="14sp" />
 
@@ -286,7 +286,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="With the understanding of the terms and arrangement of elements on the Rubik's Cube 3x3, we can now proceed to the assembly diagrams."
+                android:text="@string/start1_assembly_diagrams"
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
@@ -295,7 +295,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="This mobile app makes assembling the Rubik's Cube 3x3 an easy task for you!"
+                android:text="@string/start1_easy_task"
                 android:textColor="@color/text"
                 android:textSize="18sp"
                 android:textStyle="bold" />
