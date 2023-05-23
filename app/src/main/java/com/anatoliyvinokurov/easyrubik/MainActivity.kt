@@ -154,7 +154,7 @@ class MainActivity : AppCompatActivity() {
             super.onBackPressed() //the team that closes the game
             return
         } else {
-            backToast = Toast.makeText(getBaseContext(), "Click again to exit", Toast.LENGTH_SHORT)
+            backToast = Toast.makeText(getBaseContext(), R.string.exetpress, Toast.LENGTH_SHORT)
             backToast.show()
         }
         backPressedTime = System.currentTimeMillis()

@@ -2,6 +2,7 @@
     <string name="app_name">Rubik\'s Easy Assistant</string>
     <string name="impossible_game">Impossible Game</string>
     <string name="retry_button_text">Retry</string>
+<string name="exetpress">Click again to exit</string>
 
 <string name="start1_before_of_start">Before of start</string>
 <string name="start1_how_to_build_cube">How to build a Rubik\'s Cube 3x3</string>
