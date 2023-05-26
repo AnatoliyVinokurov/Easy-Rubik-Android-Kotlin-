@@ -9,8 +9,8 @@ android {
         applicationId "com.anatoliyvinokurov.easyrubik"
         minSdkVersion 19
         targetSdkVersion 33
-        versionCode 1
-        versionName "1.2"
+        versionCode 2
+        versionName "1.3"
         multiDexEnabled = true
     }
     buildTypes {

@@ -17,7 +17,7 @@
         <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
+            android:value="ca-app-pub-7477627546717786~2661123985" />
 
 
 
@@ -36,7 +36,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
     <permission
-        android:name="com.example.yourapp.permission.MODIFY_APP"
+        android:name="com.anatoliyvinokurov.easyrubik.permission.MODIFY_APP"
         android:protectionLevel="signature" />
 
 </manifest>

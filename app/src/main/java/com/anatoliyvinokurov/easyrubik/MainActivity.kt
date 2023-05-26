@@ -17,7 +17,7 @@ import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 const val GAME_LENGTH_MILLISECONDS = 3000L
 
 //ca-app-pub-3940256099942544/1033173712
-const val AD_UNIT_ID = "ca-app-pub-3940256099942544/1033173712"
+const val AD_UNIT_ID = "ca-app-pub-7477627546717786/4820345477"
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

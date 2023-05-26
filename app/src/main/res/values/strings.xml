@@ -6,7 +6,7 @@
 
 <string name="start1_before_of_start">Before of start</string>
 <string name="start1_how_to_build_cube">How to build a Rubik\'s Cube 3x3</string>
-<string name="start1_instructions">Welcome to my mobile app that offers step-by-step instructions for assembling the Rubik\'s Cube 3x3 using the easiest method known as the 'beginner's method' among speedcubers. Let's dive into the process:</string>
+<string name="start1_instructions">Welcome to my mobile app that offers step-by-step instructions for assembling the Rubik\'s Cube 3x3 using the easiest method known as the \'beginner\'s method\' among speedcubers. Let\'s dive into the process:</string>
 <string name="start1_building_right_cross">Building the Right Cross on the Top Layer.</string>
 <string name="start1_assembling_corners">Assembling All Four Corners of the Top Layer.</string>
 <string name="start1_assembling_middle_layer">Assembling the Middle Layer (Belt).</string>
@@ -24,7 +24,7 @@
 <string name="start1_f_movement">F : Front or rotate the front in a clockwise direction</string>
 <string name="start1_b_movement">B : Back or turn the back clockwise</string>
 <string name="start1_naming_elements">Naming the Elements on the 3x3 Cube:</string>
-<string name="start1_cube_elements">In this step-by-step assembly instructions, we refer to specific elements. Here\'s a depiction of the Rubik's 3x3 puzzle with labeled positions and elements.</string>
+<string name="start1_cube_elements">In this step-by-step assembly instructions, we refer to specific elements. Here\'s a depiction of the Rubik\'s 3x3 puzzle with labeled positions and elements.</string>
 <string name="start1_center_element1">The list of all elements of the Rubik\'s 3x3 puzzle:</string>
 <string name="start1_center_element">Center: The central piece.</string>
 <string name="start1_edge_element">Edge: The side pieces connecting the center and corner elements.</string>
